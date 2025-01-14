@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: rgb(235, 0, 0);
+            text-decoration: none;
+            
+        }
+        a:hover{
+           
+           color: rgb(31, 18, 102);
+           text-decoration: underline;
+        }
+       
+        a:active{
+            color: blue;
+        }
+        .especial{
+            background-color: rgb(201, 160, 160);
+        }
+        .especial::before{
+            content: '✅'
+        }
+
+        .especial::after{
+            content: '✅'
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://www.google.com/" target="_blank">Link 1</a></li>
+        <li><a href="https://www.youtube.com/" target="_blank" class="especial">Link 2</a></li>
+        <li><a href="https://br.search.yahoo.com/?fr2=p:fprd,mkt:br" target="_blank" class="especial">Link 3</a></li>
+    </ul>
+</body>
+</html>

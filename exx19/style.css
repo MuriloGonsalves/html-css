@@ -1,0 +1,37 @@
+@charset "UTF-8";
+body{
+    background-image: linear-gradient(900deg , rgb(206, 235, 206) , rgb(66, 114, 56) ) ;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    
+}
+h1#principal{
+background-color:rgb(29, 172, 29) ;
+color: white;
+text-align: center;
+}
+
+h1{
+    color:rgb(38, 219, 38) ;
+}
+
+h2{
+color: rgb(42, 77, 42);
+} 
+
+.titulo{
+
+    color: rgb(81, 140, 155);
+}
+
+.basico{
+    color:rgb(81, 155, 121) ;
+}
+
+.intermediario{
+    color: rgb(155, 81, 81) ;
+}
+
+.avancado{
+    color: rgb(109, 81, 155);
+    }
