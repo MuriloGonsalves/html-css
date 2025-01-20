@@ -1,0 +1,38 @@
+h1{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    
+}
+.imagem {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.imagem a{
+    display: block;
+}
+.imagem img {
+    height: 150px;
+    width: auto;
+
+    
+}
+body{
+    background-color: rgb(27, 27, 28)
+}
+.i{
+    display:grid ;
+    justify-content: center;
+    gap: 40px;
+}
+.i a{
+display: flex;
+justify-content: center;
+text-decoration: none;
+color: #ffffff;
+font-size: large;
+}
+.i a:hover{
+    color: rgb(44, 41, 226);
+}
