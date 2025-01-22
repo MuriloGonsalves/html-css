@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Semantica</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        thead , tfoot{
+            background-color: gray;
+        }
+        .no{
+            color: red;
+        }
+        th , td{
+            border: 1px solid black;
+        }
+        .num{
+            text-align: right;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body> 
+    <h1>Tabela com tags semanticas</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Estados</th>
+            
+                <th>População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">1.000,00</td>
+            </tr>
+            <tr>
+                <td>Piauí</td>
+                <td class="num">1.000,00</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">1.000,00</td>
+            </tr>
+            <tr>
+                <td>Manaus</td>
+                <td class="num">1.000,00</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total da População</th>
+                <th class="no">4.000,00</th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
