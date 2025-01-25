@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        body{
+            background-color: rgba(211, 211, 211, 0.205);
+        }
+        table{
+            position: relative;
+            margin: auto;
+            font-size: 1.5em;
+            text-shadow: 1px 0px 1px rgba(0, 0, 0, 0.514);
+            background-color: white;
+            border-collapse: collapse;
+            width: 500px;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color:gray ;            
+        }
+        thead , tfoot{
+            background-color: gray;
+        }
+        td:hover{
+            box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.719)
+        }
+        
+        caption{
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+            font-size: 1.5em;
+            font-weight: bold;
+            text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.336);
+        }
+        th , td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
+            font-weight: 900;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Orçamento</caption>
+        <thead>
+            <tr>
+                <th scope="row">carros</th>
+                <th  scope="row" style="width: 100px;">valor</th>
+                <th scope="row" style="width: 100px;">IPVA</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>civic</td>
+                <td>100k</td>
+                <td>2k</td>
+            </tr>
+            <tr>
+                <td>palio</td>
+                <td>20k</td>
+                <td>400,00</td>
+            </tr>
+            <tr>
+                <td>celta</td>
+                <td>28k</td>
+                <td>450,00</td>
+            </tr>
+            <tr>
+                <td>911</td>
+                <td>1M</td>
+                <td>100k</td>
+            </tr>
+            <tr>
+                <td>civic</td>
+                <td>100k</td>
+                <td>2k</td>
+            </tr>
+            <tr>
+                <td>palio</td>
+                <td>20k</td>
+                <td>400,00</td>
+            </tr>
+            <tr>
+                <td>celta</td>
+                <td>28k</td>
+                <td>450,00</td>
+            </tr>
+            <tr>
+                <td>911</td>
+                <td>1M</td>
+                <td>100k</td>
+            </tr>
+            <tr>
+                <td>civic</td>
+                <td>100k</td>
+                <td>2k</td>
+            </tr>
+            <tr>
+                <td>palio</td>
+                <td>20k</td>
+                <td>400,00</td>
+            </tr>
+            <tr>
+                <td>celta</td>
+                <td>28k</td>
+                <td>450,00</td>
+            </tr>
+            <tr>
+                <td>911</td>
+                <td>1M</td>
+                <td>100k</td>
+            </tr>
+            <tr>
+                <td>civic</td>
+                <td>100k</td>
+                <td>2k</td>
+            </tr>
+            <tr>
+                <td>palio</td>
+                <td>20k</td>
+                <td>400,00</td>
+            </tr>
+            <tr>
+                <td>celta</td>
+                <td>28k</td>
+                <td>450,00</td>
+            </tr>
+            <tr>
+                <td>911</td>
+                <td>1M</td>
+                <td>100k</td>
+            </tr>
+            <tr>
+                <td>civic</td>
+                <td>100k</td>
+                <td>2k</td>
+            </tr>
+            <tr>
+                <td>palio</td>
+                <td>20k</td>
+                <td>400,00</td>
+            </tr>
+            <tr>
+                <td>celta</td>
+                <td>28k</td>
+                <td>450,00</td>
+            </tr>
+            <tr>
+                <td>911</td>
+                <td>1M</td>
+                <td>100k</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Valor total</th>
+                <th>1.148M</th>
+                <th>102.850,00</th>
+            </tr>
+        </tfoot>
+    </table>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, neque totam ut maiores nihil odit eaque incidunt dolorum dolorem tenetur qui sequi adipisci? Minima mollitia assumenda error modi corrupti voluptatum.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas omnis cum, minima illum eligendi et voluptatibus non. Molestias veritatis ex ad tempora nisi totam deserunt quibusdam aspernatur harum? Nam, dolore!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus repudiandae obcaecati sapiente dolores suscipit laudantium itaque quia quos temporibus eum eos, non illum eveniet error laborum ipsum nulla reiciendis. At.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, modi nobis ullam alias corrupti a labore accusantium eaque repellat ipsa sunt iure distinctio consequatur qui placeat temporibus blanditiis perferendis in.
+    </p>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, neque totam ut maiores nihil odit eaque incidunt dolorum dolorem tenetur qui sequi adipisci? Minima mollitia assumenda error modi corrupti voluptatum.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas omnis cum, minima illum eligendi et voluptatibus non. Molestias veritatis ex ad tempora nisi totam deserunt quibusdam aspernatur harum? Nam, dolore!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus repudiandae obcaecati sapiente dolores suscipit laudantium itaque quia quos temporibus eum eos, non illum eveniet error laborum ipsum nulla reiciendis. At.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, modi nobis ullam alias corrupti a labore accusantium eaque repellat ipsa sunt iure distinctio consequatur qui placeat temporibus blanditiis perferendis in.
+    </p>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, neque totam ut maiores nihil odit eaque incidunt dolorum dolorem tenetur qui sequi adipisci? Minima mollitia assumenda error modi corrupti voluptatum.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas omnis cum, minima illum eligendi et voluptatibus non. Molestias veritatis ex ad tempora nisi totam deserunt quibusdam aspernatur harum? Nam, dolore!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus repudiandae obcaecati sapiente dolores suscipit laudantium itaque quia quos temporibus eum eos, non illum eveniet error laborum ipsum nulla reiciendis. At.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, modi nobis ullam alias corrupti a labore accusantium eaque repellat ipsa sunt iure distinctio consequatur qui placeat temporibus blanditiis perferendis in.
+    </p>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, neque totam ut maiores nihil odit eaque incidunt dolorum dolorem tenetur qui sequi adipisci? Minima mollitia assumenda error modi corrupti voluptatum.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas omnis cum, minima illum eligendi et voluptatibus non. Molestias veritatis ex ad tempora nisi totam deserunt quibusdam aspernatur harum? Nam, dolore!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus repudiandae obcaecati sapiente dolores suscipit laudantium itaque quia quos temporibus eum eos, non illum eveniet error laborum ipsum nulla reiciendis. At.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, modi nobis ullam alias corrupti a labore accusantium eaque repellat ipsa sunt iure distinctio consequatur qui placeat temporibus blanditiis perferendis in.
+    </p>
+</body>
+</html>
