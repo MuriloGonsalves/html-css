@@ -15,6 +15,9 @@ body{
     height:30vw ;
     margin: 40px;
 }
+col .cid{
+    background-color: gray;
+}
 .titulos{
     margin-top: 20px;
     font-size: 1.5em;
