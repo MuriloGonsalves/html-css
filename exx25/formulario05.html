@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulario grande</h1>
+    <form action="#">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome" autocomplete="off" required maxlength="3" >
+            </p>
+            <p>
+                <label for="iemail">Email:</label>
+                <input type="email" name="email" id="iemail" required autocomplete="on">
+            </p>
+            <p>
+                <label for="idnas">Data de Nascimento</label>
+                <input type="date" name="datan" id="idnas" required  required placeholder="DD/MM/AA">
+            </p>
+            <p>
+                <input type="checkbox" name="sexM" id="isexm"><label for="isexm" value="M" >Masculino</label>
+            </p>
+            <p>
+                <input type="checkbox" name="sexF" id="isexf"><label for="isexf" value="F" >Feminino</label>
+            </p>
+        <p>     <label for="itel">Seu melhor numero:</label>
+                <input type="tel" name="tel" id="itel" required minlength="10" placeholder="(xx)xxxx-xxxxx" size="11">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Perguntas</legend>
+            <p>
+                <label>Mora Sozinho:</label>
+                <input type="radio" name="lista1" id="isim"><label for="isim">Sim</label>
+                <input type="radio" name="lista1" id="inao"><label for="inao">Não</label>
+            </p>
+            <p>
+                <label>Renda mensal:</label>
+                <input type="radio" name="lista2" id="1k"><label for="1k">1.000,00+</label>
+                <input type="radio" name="lista2" id="2k"><label for="2k">2.000,00+</label>
+            </p>
+        </fieldset>
+        <p style="text-align: center;">
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
