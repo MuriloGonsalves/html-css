@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+
+/* media tela */
+
+*{
+margin: 0;
+padding: 0;
+}
+body{
+    background-color: lightslategrey;
+}
+html{
+    font-family:Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    margin: 10px;
+}
+menu{
+    height: 80px;
+    background-color: rgba(211, 211, 211, 0.411);
+}
+li{
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.541);
+    border-radius: 6px;
+    color: white;
+}
+main{
+    width: 500px;
+    height: 79vh;
+    margin: auto;
+    padding: 10px;
+    background-color: lightcyan;
+}
+h2{
+    text-align: center;
+    margin: 10px;
+}
+
+
