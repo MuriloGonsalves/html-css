@@ -13,14 +13,14 @@ header{
 h1{
     padding: 15px;
 }
-span#menu{
+span#icone{
     display: block;
     background-color: black;
     color: white;
     padding:10px;
     cursor: pointer;
 }
-span#menu:hover{
+span#icone:hover{
     background-color: white;
     color: black;
     transition:0.5s;
