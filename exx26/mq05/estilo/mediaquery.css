@@ -1,0 +1,16 @@
+    
+    span#icone {
+      display: none ;
+    }
+    #menu{
+        display: block;
+        text-align: left;
+    }
+    li{
+        text-align: center;
+        display: inline-block;
+        width: 10vw;
+    }
+    main{
+        width:600px;
+    }
