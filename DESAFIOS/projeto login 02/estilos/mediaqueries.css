@@ -1,0 +1,35 @@
+@media screen and (min-width:768px) /* Tela Tablet */ 
+{
+    body{
+        background-image: linear-gradient( #5f2c82 , lightgray);
+    }
+    section{
+        width: 700px;
+        height: 300px;
+    }
+    .imagem{
+        float: left;
+       width: 30%;
+       height: 100vh;
+    }
+    .formulario{
+        float: right;
+        width: 70%;
+        height: 100vh;
+    }
+}
+@media screen and (min-width:992px) /* Tela Desktop */
+{
+    section{
+        width: 950px;
+    }
+    .imagem{
+        float: right;
+        width: 50%;
+    }
+    .formulario{
+        float: left;
+        width: 50%;
+    }
+    
+}
