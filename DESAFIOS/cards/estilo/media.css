@@ -1,0 +1,37 @@
+@media screen and (min-width:768px) /* Tela Tablet */
+ {
+    article{
+        margin: 20px 30px;
+        width: 220px;
+    }
+
+    article > p{
+        margin: 10px 0;
+    }
+
+    article > a{
+        margin-top: 30px;
+    }
+    
+    footer > div{
+        margin: 25px 40px;
+    }
+    footer > .rodape{
+        margin-top: 74px;
+    }
+ }
+@media screen and (min-width:992px) /* Tela Desktop */
+ {
+   article{
+    margin: 40px;
+   }
+    article:hover{
+        background-color: lightgrey;
+        margin: 0px;
+        width: 50vh;
+        transition: 0.5s ease;
+        margin: auto;
+        
+    }
+    
+ }
