@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.conteiner{
+
+    background-color: blue;
+    display: flex;
+}
+.card{
+    flex: auto;
+    border: 1px solid black;
+    text-align: center;
+    background-color: brown;
+}
