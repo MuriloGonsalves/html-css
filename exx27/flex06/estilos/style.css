@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.conteiner{
+
+    background-color: blue;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    height: 600px;
+}
+.card{
+    width: 100px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: brown;
+}
