@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.conteiner{
+
+    background-color: blue;
+    display: flex;
+    flex-flow: row nowrap;
+    height: 400px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.card{
+    flex-basis: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    text-align: center;
+    background-color: brown;
+    flex-shrink: 1;
+}
+.cc{
+    flex-shrink: 2;
+}
